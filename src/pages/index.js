@@ -17,7 +17,7 @@ export default function Home() {
         </h1>
 
         <p className={styles.description}>
-          Browse Customer Stories and check back soon for more resources and tools.{' '}
+          Browse Customer Stories and check back soon for more resources.{' '}
         </p>
 
         <div className={styles.grid}>
@@ -35,7 +35,7 @@ export default function Home() {
           rel="noopener noreferrer"
         >
           <span className={styles.logo}>
-            <Image src="/Netlify_logo.svg" alt="Netlify Logo" width={100} height={30} />
+            <Image src="../Netlify_logo.svg" alt="Netlify Logo" width={100} height={30} />
           </span>
         </a>
       </footer>
